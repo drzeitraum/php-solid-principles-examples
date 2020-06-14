@@ -1,6 +1,6 @@
 <?php
 
-// Single Responsibility Principle #2: No Good
+# Single Responsibility Principle #2: No Good
 class Protocol
 {
 
@@ -28,7 +28,7 @@ $protocol = new Protocol;
 print_r($protocol->update('HTTPS'));
 $protocol->printer();
 
-// Single Responsibility Principle #2: Refactored
+# Single Responsibility Principle #2: Refactored
 class Protocol
 {
     public function get()

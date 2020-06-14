@@ -1,6 +1,7 @@
 <?php
 
-// Single Responsibility Principle #1: No Good
+# Single Responsibility Principle #1: No Good
+
 class Internet
 {
     public function getBirthday()
@@ -27,7 +28,8 @@ class Internet
 $count = new Internet;
 echo $count->countProviders();
 
-// Single Responsibility Principle #1: Refactored
+
+# Single Responsibility Principle #1: Refactored
 class Internet
 {
     public function getBirthday()

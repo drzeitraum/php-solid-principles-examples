@@ -126,6 +126,6 @@ class InternetServices
 }
 
 // use
-$employee = new InternetServices;
-echo $employee->connect(new Client);
-echo $employee->connect(new Staff);
+$services = new InternetServices;
+echo $services->connect(new Client);
+echo $services->connect(new Staff);

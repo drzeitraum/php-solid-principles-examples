@@ -21,3 +21,9 @@
 > **Wikipedia:** In the field of software engineering, the interface-segregation principle (ISP) states that no client should be forced to depend on methods it does not use.
 
 **When use:** When the interface performs radically different functions.
+
+## Dependency Invertion Principle
+
+> **Wikipedia:** In object-oriented design, the dependency inversion principle is a specific form of decoupling software modules.
+
+**When use:** If there is a dependency of objects of different classes, then change this dependency to abstract classes.

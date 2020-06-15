@@ -30,6 +30,7 @@ echo $count->countProviders();
 
 
 # Single Responsibility Principle #1: Refactored
+
 class Internet
 {
     public function getBirthday()
